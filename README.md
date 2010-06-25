@@ -1,6 +1,8 @@
-To Run (crazy alpha):
-=====================
-  cd into bin/ and then `./kitty`
+Get down with the crazy alpha:
+==============================
+  1. `cd` into this directory
+  2. `gcc --ansi -o bin/kitty lib/kitty.c`
+  3. `./bin/kitty`
 
 Run `./kitty` to brighten up your day!
 --------------------------------------------------------
