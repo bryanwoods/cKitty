@@ -226,25 +226,25 @@ main()
             "        _|||_\n"
             "       ( / \\ )\n";
 
-    char *kittens[MAXCATS];
+    char *allKittens[MAXCATS];
     char i;
 
     srand(time(NULL));
     int r = rand() % MAXCATS;
 
-    kittens[0] = night;
-    kittens[1] = pounce;
-    kittens[2] = face;
-    kittens[3] = sleep;
-    kittens[4] = chub;
-    kittens[5] = curious;
-    kittens[6] = proud;
-    kittens[7] = stretch;
-    kittens[8] = tail;
-    kittens[9] = scared;
-    kittens[10] = dumb;
-    kittens[11] = crazy;
-    kittens[12] = dominant;
+    allKittens[0] = night;
+    allKittens[1] = pounce;
+    allKittens[2] = face;
+    allKittens[3] = sleep;
+    allKittens[4] = chub;
+    allKittens[5] = curious;
+    allKittens[6] = proud;
+    allKittens[7] = stretch;
+    allKittens[8] = tail;
+    allKittens[9] = scared;
+    allKittens[10] = dumb;
+    allKittens[11] = crazy;
+    allKittens[12] = dominant;
 
-    printf("%s\n", kittens[r]);
+    printf("%s\n", allKittens[r]);
 }
