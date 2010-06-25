@@ -2,10 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 
+#define MAXCATS 13
+
 main()
 {
     char *night, *pounce, *face, *sleep;
-    char *curious, *chub *scared, *proud;
+    char *curious, *chub, *scared, *proud;
     char *stretch, *tail, *dumb, *crazy;
     char *dominant;
 
@@ -224,11 +226,11 @@ main()
             "        _|||_\n"
             "       ( / \\ )\n";
 
-    char *kittens[13];
+    char *kittens[MAXCATS];
     char i;
 
     srand(time(NULL));
-    int r = rand() % 13;
+    int r = rand() % MAXCATS;
 
     kittens[0] = night;
     kittens[1] = pounce;
